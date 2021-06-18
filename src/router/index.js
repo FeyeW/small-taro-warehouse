@@ -74,6 +74,12 @@ export const constantRoutes = [
         name: 'article',
         component: () => import('@/pages/cms/Article'),
         meta: { title: '资讯管理' }
+      },
+      {
+        path: 'category',
+        name: 'category',
+        component: () => import('@/pages/cms/Category'),
+        meta: { title: '栏目管理' }
       }
     ]
   },
